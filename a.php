@@ -1,5 +1,2 @@
-sss
-s
-s
-s
-s
+<?php
+echo 323;
