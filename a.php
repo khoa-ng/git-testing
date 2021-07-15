@@ -1,8 +1,8 @@
 {
   from: 'outbound@saladoar.com',
-  to: '"Khoa Nguyen" <developer@vokana.com>',
+  to: '"Khoa Nguyen" <khoa-ng112@outlook.com>',
   subject: 'Published Publication',
-  html: '<div>A blueprint offer "GL_Offerer" is published to product</div><div>http://localhost:3001/760c05a2-98c8-4c07-b608-dfbe329c2fb9</div>',
+  html: '<div>A blueprint offer "GL_Offerer" is published to product</div><div>Click <a href="http://localhost:3001/notification/60f094f195faecd0d397979c/6dea662d-901f-42a5-94cc-1825befb0ccf">here</a> to unsubscribe</div>',
   dkim: {
     domainName: 'saladoar.com',
     keySelector: 'sendmail',
@@ -37,7 +37,7 @@
   },
   list: {
     unsubscribe: {
-      url: 'http://localhost:3001/760c05a2-98c8-4c07-b608-dfbe329c2fb9',
+      url: 'http://localhost:3001/notification/60f094f195faecd0d397979c/6dea662d-901f-42a5-94cc-1825befb0ccf',
       comment: 'Please click if you want to unsubscribe the email'
     }
   }
